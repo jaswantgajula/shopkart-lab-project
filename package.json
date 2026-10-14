@@ -1,0 +1,13 @@
+{
+  "name": "shopkart-lab-02-root",
+  "version": "1.0.0",
+  "description": "ShopKart Login -> Home Flow Lab 02 (Frontend & Backend)",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
